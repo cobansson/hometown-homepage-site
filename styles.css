@@ -1,0 +1,244 @@
+@font-face {
+    font-family: Poppins;
+    src: url("Poppins/Poppins-Black.ttf");
+}
+
+body {
+    text-align: center;
+    margin: 0;
+    font-family: Poppins;
+}
+
+img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+
+.firstPartStyle {
+    background-image: url("pictures/rotterdam1.jpg");
+    background-size: cover;
+
+    margin: 0 0 0 0;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.text-1 {
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 0 6px rgb(54, 27, 27);
+     
+    color: antiquewhite;
+    font-size: 80px;
+
+    margin-top: 50px;
+    margin-bottom: 80px;
+
+    padding: 10px 20px;
+    background: rgb(42, 146, 38);
+    opacity: 80%;
+}
+
+.text-2 {
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 0 6px rgb(83, 49, 49);
+     
+    color: antiquewhite;
+    font-size: 35px;
+
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 300px;
+
+    padding: 10px 20px;
+    background: rgb(76, 76, 241);
+    opacity: 80%;
+}
+
+.activityStyle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    padding: 300px;
+    background-image: url("pictures/rotterdam2.jpg");
+    background-size: cover;
+
+    
+
+    
+}
+
+
+#text1 {
+    padding:10px 20px;
+    color: antiquewhite;
+    background: rgb(42, 146, 38);
+    font-size: 40px;
+    opacity: 80%;
+
+    margin-bottom: 150px;
+
+    border-radius: 15px;
+
+    box-shadow: 0 0 6px rgb(83, 49, 49);
+    text-shadow: 0 0 6px rgb(83, 49, 49);
+}
+
+.alignStyle {
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+    
+    opacity: 90%;
+
+    color: rgb(246, 255, 204);
+
+    font-size: 30px;
+}
+
+#listItem1 {
+    background-image: url("pictures/cubic\ house.jpg");
+    background-size: cover;
+
+    
+    margin: 20px;
+
+    padding: 50px 100px;
+
+    border-radius: 15px;
+    
+    box-shadow: 0 0 6px rgb(83, 49, 49);
+    text-shadow: 0 0 20px rgb(83, 49, 49);
+}
+
+
+#listItem2 {
+    background-image: url("pictures/maastunnel.jpg");
+    background-size: cover;
+
+    
+    margin: 20px;
+
+    padding: 50px 100px;
+
+    border-radius: 15px;
+    
+    box-shadow: 0 0 6px rgb(83, 49, 49);
+    text-shadow: 0 0 20px rgb(83, 49, 49);
+}
+
+#listItem3 {
+    background-image: url("pictures/markthal.jpg");
+    background-size: cover;
+
+    
+    margin: 20px;
+
+    padding: 50px 100px;
+
+    border-radius: 15px;
+    
+    box-shadow: 0 0 6px rgb(83, 49, 49);
+    text-shadow: 0 0 20px rgb(83, 49, 49);
+}
+
+.style1 {
+    margin:0 0 0 0;
+    background-image: url("");
+}
+
+.style2 {
+    margin:0 0 0 0;
+
+}
+
+.style3 {
+    margin:0 0 0 0;
+
+}
+
+.commonStyle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    opacity: 100%;
+
+    color: antiquewhite;
+    text-shadow: 0 0 20px rgb(83, 49, 49);
+
+    padding: 100px;
+
+}
+
+.background {
+    background-image: url("pictures/rotterdam3.jpeg");
+    background-size: cover;
+}
+
+#textHeader {
+    font-size: 20px;
+    color: azure;
+
+    padding: 10px 20px;
+    background-color: rgb(34, 177, 34);
+
+    border-radius: 20px;
+    box-shadow: 0 0 5px rgb(83, 49, 49);
+
+    opacity: 90%;
+}
+
+#textParagraph {
+    font-size: 15px;
+    color: azure;
+
+    padding: 10px 20px;
+    background-color: rgb(0, 116, 0);
+
+    border-radius: 20px;
+    box-shadow: 0 0 5px rgb(83, 49, 49);
+
+    opacity: 90%;
+}
+
+.contactStyle {
+    text-align:center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 15px;
+
+    padding: 50px 50px;
+
+
+
+    background: rgb(39, 161, 161);
+}
+
+.infoStyle {
+    display: block;
+    justify-content:space-around;
+
+    color: rgb(20, 20, 73);
+}
+
+.bottomBorder {
+    border-bottom: 10px solid rgb(9, 9, 61);
+    border-radius: 20px;
+}
+
+#textEnd {
+    padding: 0 50px;
+}
